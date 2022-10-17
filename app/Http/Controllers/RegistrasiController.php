@@ -20,9 +20,5 @@ class RegistrasiController extends Controller
             'password'=>$password,
         ]);
         return $this->responseHasil(200,true,"Registrasi Berhasil");
-        // return response()->json([
-        //     'status' => 'success',
-        //     'message' => 'Berhasil'
-        // ], 200);
     }
 }
